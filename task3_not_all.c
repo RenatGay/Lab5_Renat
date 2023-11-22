@@ -19,14 +19,13 @@ double formula(int list[], int n) {
         sum += pow(list[i] - mean, 2);
     }
     sum /= n;
-
     return sqrt(sum);
 }
 
 void average(){
     double all = 0.0;
     for (int i = 0; i < N; i++) {
-        int a = rand() % 202 - 101;
+        int a = rand() % 201 - 101;
         list[i] = a;
         printf("The list[%d] is %d\n", i, a);
         all += a;
@@ -34,7 +33,7 @@ void average(){
     printf("Sum of all numbers is: %.2lf\n", all);
     double average = all / N;
 
-    printf("Result is: %.2lf\n", average);
+    printf("Average is: %.2lf\n", average);
 }
 
 

@@ -16,7 +16,7 @@ void average(){
     printf("Sum of all numbers is: %.2lf\n", all);
     double average = all / N;
 
-    printf("Result is: %.2lf\n", average);
+    printf("Average is: %.2lf\n", average);
 }
 
 int main() {
