@@ -4,7 +4,7 @@
 #include <math.h>
 
 #define N 30
-int print_value(int list[], int n, double average, double std){
+void print_value(int list[], int n, double average, double std){
     int lower = average - std;
     int higher = average + std;
 
@@ -16,7 +16,7 @@ int print_value(int list[], int n, double average, double std){
 
 }
 
-int min_max(int list[N]){
+void min_max(int list[N]){
     
     int max = list[0];
     int min = list[0];

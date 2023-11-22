@@ -5,7 +5,7 @@
 
 #define N 30
 
-int min_max(int list[N]){
+void min_max(int list[N]){
     
     int max = list[0];
     int min = list[0];
