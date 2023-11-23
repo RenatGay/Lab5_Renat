@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <math.h>
-
+int nothing
 #define N 30
 
 void min_max(int list[N]){
