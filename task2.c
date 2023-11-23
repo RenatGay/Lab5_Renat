@@ -6,7 +6,7 @@
 int list[N];
 
 void average(){
-    double all = 0.0
+    double all = 0.0;
     for (int i = 0; i < N; i++) {
         int a = rand() % 201 - 100;
         list[i] = a;
