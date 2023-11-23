@@ -3,7 +3,7 @@
 #include <time.h>
 #include <math.h>
 
-#define N 30
+#define N 100000
 int list[N];
 
 double formula(int list[], int n) {
