@@ -25,7 +25,7 @@ double formula(int list[], int n) {
 void average(){
     double all = 0.0;
     for (int i = 0; i < N; i++) {
-        int a = rand() % 201 - 101;
+        int a = rand() % 201 - 100;
         list[i] = a;
         printf("The list[%d] is %d\n", i, a);
         all += a;
